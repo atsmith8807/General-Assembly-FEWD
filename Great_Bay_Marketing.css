@@ -1,0 +1,677 @@
+body {
+  background-color: #181450;
+  z-index: 1;
+}
+.headline {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #c8d8e7;
+  height: 10em;
+  color: 181450;
+  font-family: "Bebas Neue", cursive;
+  border-radius: 1em;
+}
+
+.title {
+  font-size: 5.5em;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+
+  white-space: nowrap;
+  flex-wrap: wrap;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-top: 2em;
+  font-size: 1.5em;
+  padding-right: 1em;
+}
+
+.nav-menu-item {
+  padding: 2mm;
+}
+.nav-menu-item-contact {
+  padding: 2mm;
+}
+.nav-menu-item-contact:hover {
+  color: rgb(0, 0, 0);
+  background-color: #71b7e7;
+  height: 1em;
+  border-radius: 1em;
+}
+
+.nav-menu-item:hover {
+  color: rgb(0, 0, 0);
+  background-color: #71b7e7;
+  height: 1em;
+  border-radius: 1em;
+}
+
+.headline_section {
+  background-image: url("https://tonysmith.getbynder.com/transform/c0e59794-cfa4-4e75-a475-f2bd1183faa4/curt-nichols-I-30st7mGAE-unsplash-jpg-jpg-1?io=transform:crop,height:700,width:2000,path:square&io=filter:grayscale&format=webp&quality=95");
+  height: 20em;
+  border-bottom: rgb(24, 20, 80) solid 5px;
+  border-top: rgb(24, 20, 80) solid 5px;
+  border-radius: 1em;
+}
+
+.bottom-left {
+  position: -webkit-sticky;
+  height: 15em;
+  width: 30;
+  padding-top: 2em;
+  padding-left: 1em;
+  font-size: 3em;
+  color: #181450;
+  font-family: "Bebas Neue", cursive;
+}
+
+.about_us_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: unset;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  height: 20em;
+  border: #181450;
+  border-radius: 1em;
+  border-bottom: 5px solid #181450;
+}
+
+.about_us_list_1 {
+  list-style-type: none;
+  width: fit-content;
+  padding: 1em;
+}
+
+.about_us_list_item_1 {
+  font-style: normal;
+  font-size: 1.8em;
+  padding: 2px;
+}
+
+.about_us_list_item_2 {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1.2em;
+  color: #71b7e7;
+}
+.about_us_list_item_3 {
+  font-size: 1.2em;
+  padding: 8px;
+}
+.about_us_list_item_3:hover {
+  font-size: 1.2em;
+  background-color: #71b7e7;
+  color: #181450;
+  width: 8em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.case_study_container {
+  width: 70em;
+  background-image: url("https://tonysmith.getbynder.com/transform/9b96c543-04db-41d5-9f80-6decf75bb949/Portsmouth-Music-Hall?io=filter:grayscale&io=filter:brightness,amount:-38&io=transform:fit,height:800,width:800&quality=75");
+}
+
+.case_study_list {
+  list-style-type: none;
+}
+
+.case_study_name {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.case_study_description {
+  font-size: 1.2em;
+}
+
+.case_study_list_item {
+  font-size: 1em;
+}
+.case_study_list_item:hover {
+  font-size: 1.2em;
+  color: #71b7e7;
+  background-color: #181450;
+  width: 7em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+
+
+  .blog_title_header {
+    height: 1em;
+    background-color: #181450;
+    color: #71b7e7;
+    font-family: "Bebas Neue", cursive;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    padding: 0.5em;
+  }
+
+  .blog_1_section {
+    background-image: url("https://tonysmith.getbynder.com/transform/d4158714-0a60-483f-b68b-ca25516e9e77/Blog-post-background-2?io=transform:crop,height:600,width:3000,path:square&io=filter:brightness,amount:-26&quality=75");
+    height: 21em;
+    width: auto;
+    background-repeat: no-repeat;
+    border: solid #181450 5px;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    font-family: "Bebas Neue", cursive;
+    padding-top: 1em;
+  }
+
+  .blog_2_section {
+    background-image: url("https://tonysmith.getbynder.com/transform/81f06bef-cecb-40c5-baa8-060e47883537/Beach?io=transform:fill,width:3000,height:600&io=filter:brightness,amount:-14&quality=75");
+    height: 21em;
+    width: auto;
+    background-repeat: no-repeat;
+    border: solid #181450 5px;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    font-family: "Bebas Neue", cursive;
+    padding-top: 1em;
+  }
+
+  .blog_date_topic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    list-style-type: none;
+    font-size: 1.4em;
+  }
+
+  .blog_date_topic_menu_item {
+    padding: 7px;
+  }
+
+  .blog_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    list-style-type: none;
+    font-size: 3em;
+    font-style: italic;
+    padding-bottom: 1em;
+  }
+
+  .button {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 0.6em;
+    font-style: italic;
+    align-content: center;
+    background-color: #181450;
+    border-radius: 0.5em;
+    width: 5em;
+    height: 2em;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Bebas Neue";
+  }
+
+  .button:hover {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    color: #181450;
+    font-size: 0.6em;
+    align-content: center;
+    background-color: #71b7e7;
+    border-radius: 0.5em;
+    width: 5em;
+    height: 2em;
+    margin: 0 auto;
+    padding: 0;
+    border: solid #181450 5px;
+    font-family: "Bebas Neue";
+  }
+
+  .email_validator {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+    align-items: center;
+    text-align: center;
+  }
+
+  .email-sign-up {
+    font-size: 2em;
+    font-family: "Bebas Neue";
+    padding-top: 1em;
+    align-items: center;
+    text-align: center;
+  }
+
+  .email_input_field {
+    width: 12em;
+    height: 2em;
+    padding-bottom: 4px;
+    align-items: center;
+    font-size: 2em;
+    font-family: "Bebas Neue";
+  }
+
+  .email_submit_button {
+    height: 3.2em;
+    width: 8em;
+    font-family: "Bebas Neue";
+    font-size: 1.2em;
+    color: white;
+    background-color: #181450;
+    border: solid white 1px;
+  }
+
+  .email_submit_button:hover {
+    height: 3.2em;
+    width: 8em;
+    font-family: "Bebas Neue";
+    font-size: 1.2em;
+    color: #181450;
+    background-color: #c8d8e7;
+    border: solid #181450 1px;
+  }
+
+  .email_validation_response {
+    color: yellowgreen;
+    font-family: "Bebas Neue";
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    max-width: 10em;
+    height: 2em;
+    align-content: flex-end;
+    border-radius: 1em;
+    font-size: 2em;
+  }
+
+  .email_input_field:hover {
+    border: #71b7e7 2px solid;
+    background-color: lightgreen;
+  }
+
+
+
+  .grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 350px 50px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bebas Neue";
+    background-color: #c8d8e7;
+    height: 25em;
+    align-content: center;
+    border-radius: 1em;
+    padding: 7px;
+  }
+
+  .item {
+    background-color: #333333;
+    color: #debf8e;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    border-right: 5px solid #debf8e;
+  }
+
+  .ul_services_section-1-grid {
+    background-image: url("https://tonysmith.getbynder.com/transform/a8d65ba2-b4e9-4bc6-8533-9d067ad8ac2f/Marketing-services-2?io=transform:fill,width:600,height:900&quality=75");
+    border: solid #181450;
+    justify-content: center;
+    align-items: center;
+    content-visibility: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+    font-family: "Bebas Neue";
+  }
+
+  .ul_services_section-1-grid:hover {
+    content-visibility: visible;
+    background: #181450;
+    color: #71b7e7;
+    font-style: italic;
+    border-radius: 1em;
+    font-family: "Bebas Neue";
+    font-size: 1.5em;
+  }
+
+  .ul_services_section_service_download-grid {
+    background-color: #71b7e7;
+    border: solid #181450;
+    align-items: center;
+    border-radius: 1em;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    font-family: "Bebas Neue";
+    padding: 13px;
+    font-size: 1em;
+  }
+
+  .ul_services_section_service_download-grid:hover {
+    background-color: #181450;
+    color: white;
+    border-radius: 1em;
+    font-family: "Bebas Neue";
+    font-size: 1em;
+    border-color: solid white;
+  }
+
+  .ul_services_section-2-grid {
+    background-image: url("https://tonysmith.getbynder.com/transform/f904368c-45c0-4f28-b81b-4262069e9143/Consulting-Services?io=transform:fill,width:600,height:900&quality=95");
+    border: solid #181450;
+    justify-content: center;
+    align-items: center;
+    content-visibility: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+    font-family: "Bebas Neue";
+  }
+
+  .ul_services_section-2-grid:hover {
+    content-visibility: visible;
+    background: #181450;
+    color: #71b7e7;
+    font-style: italic;
+    border-radius: 1em;
+    font-family: "Bebas Neue";
+    font-size: 1.5em;
+  }
+
+  .ul_services_section-3-grid {
+    background-image: url("https://tonysmith.getbynder.com/transform/c2219211-40c6-4bfa-9974-10af59cc46f4/Marketing-Services?io=transform:fit,height:600,width:800&format=webp&quality=95");
+    border: solid #181450;
+    justify-content: center;
+    align-items: center;
+    content-visibility: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+    font-family: "Bebas Neue";
+  }
+
+  .ul_services_section-3-grid:hover {
+    content-visibility: visible;
+    background: #181450;
+    color: #71b7e7;
+    font-style: italic;
+    border-radius: 1em;
+    font-family: "Bebas Neue";
+    font-size: 1.5em;
+  }
+
+  .ul_services_section-4-grid {
+    background-image: url("https://tonysmith.getbynder.com/transform/18c5ad9c-c4f7-4135-9f81-6113052192d1/Other-services?io=transform:fit,height:600,width:800&quality=75");
+    border: solid #181450;
+    justify-content: center;
+    align-items: center;
+    content-visibility: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+    font-family: "Bebas Neue";
+  }
+
+  .ul_services_section-4-grid:hover {
+    content-visibility: visible;
+    background: #181450;
+    color: #71b7e7;
+    font-style: italic;
+    border-radius: 1em;
+    font-family: "Bebas Neue";
+    font-size: 1.7em;
+    padding-top: 20px;
+  }
+  .button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button2 {
+    width: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5em;
+    background-color: #181450;
+    border: white solid 2px;
+    color: white;
+    border-radius: 1em;
+    font-family: "Bebas Neue";
+    font-size: 1em;
+  }
+
+  .button2:hover {
+    width: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5em;
+    background-color: #71b7e7;
+    border: white solid 2px;
+    color: #181450;
+    border-radius: 1em;
+    font-family: "Bebas Neue";
+  }
+
+  .footer {
+    border-top: #71b7e7 solid 2px;
+    font-family: "Bebas Neue";
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .social_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+  }
+
+  .social_item {
+    padding: 5px;
+  }
+
+  /* Form pop us CSS - adapted from https://www.formget.com/how-to-create-pop-up-contact-form-using-javascript/ */
+
+  #abc {
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;
+    background-color: #313131;
+    overflow: auto;
+  }
+  img#close {
+    position: absolute;
+    right: -14px;
+    top: -14px;
+    cursor: pointer;
+  }
+  div#popupContact {
+    font-family: "Bebas Neue";
+    background-color: 71b7e7;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    border: #181450 5px solid;
+  }
+  form2 {
+    width: 500px;
+    height: 600px;
+    padding: 10px 50px;
+    border: 20px solid black;
+    border-radius: 10px;
+    font-family: "Bebas Neue";
+    background-color: #fff;
+  }
+  p {
+    margin-top: 10px;
+  }
+  h2 {
+    padding: 20px 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px 10px 0 0;
+    margin-right: 2em;
+    margin-left: 2em;
+    font-size: 3em;
+  }
+  hr {
+    margin: 10px -50px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+    margin-left: 7em;
+  }
+  input[type="text"] {
+    width: 82%;
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px solid #181450;
+    padding-left: 40px;
+    font-size: 16px;
+    font-family: "Bebas Neue";
+    display: block;
+    align-content: center;
+    margin-right: 2em;
+    margin-left: 3em;
+    justify-content: center;
+  }
+
+  input[type="text"]:focus {
+    width: 82%;
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px solid #181450;
+    padding-left: 40px;
+    font-size: 16px;
+    font-family: "Bebas Neue";
+    background-color: blanchedalmond;
+    margin-right: 2em;
+    margin-left: 3em;
+  }
+
+  #name {
+    background-repeat: no-repeat;
+    background-position: 5px 7px;
+  }
+  #email {
+    background-repeat: no-repeat;
+    background-position: 5px 7px;
+  }
+  textarea {
+    background-repeat: no-repeat;
+    background-position: 5px 7px;
+    width: 82%;
+    height: 95px;
+    padding: 10px;
+    resize: none;
+    margin-top: 30px;
+    border: 2px solid #181450;
+    padding-left: 40px;
+    font-size: 16px;
+    font-family: "Bebas Neue";
+    margin-bottom: 30px;
+    margin-right: 2em;
+    margin-left: 3em;
+  }
+
+  textarea:hover {
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-position: 5px 7px;
+    width: 82%;
+    height: 95px;
+    padding: 10px;
+    resize: none;
+    margin-top: 30px;
+    border: 1px solid #181450;
+    padding-left: 40px;
+    font-size: 16px;
+    font-family: "Bebas Neue";
+    margin-bottom: 30px;
+    margin-right: 2em;
+    margin-left: 3em;
+  }
+
+  #submit {
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    display: block;
+    background-color: #71b7e7;
+    color: #181450;
+    border: 3px solid #181450;
+    padding: 10px 0;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 2em;
+    margin-left: 7em;
+  }
+
+  #submit:hover {
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    display: block;
+    background-color: #181450;
+    color: #fff;
+    border: 1px solid #181450;
+    padding: 10px 0;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 2em;
+    margin-left: 7em;
+  }
+ 
+}
+button {
+  width: 10%;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #181450;
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 18px;
+  cursor: pointer;
+}
